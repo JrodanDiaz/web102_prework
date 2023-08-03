@@ -28,8 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/3jU5H9s.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
-![walkthrough](walkthrough.gif)
+<img src='./walkthrough.gif' title='Video Walkthrough' alt='Video Walkthrough' />
 
 Video Walkthrough Link: https://i.imgur.com/3jU5H9s.gif
 
