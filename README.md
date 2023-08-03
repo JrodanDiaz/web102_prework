@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/3jU5H9s.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/3jU5H9s.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
 
 Video Walkthrough Link: https://i.imgur.com/3jU5H9s.gif
 
@@ -42,7 +42,7 @@ At first, I tried to use the HTML "onclick" attribute instead of JS eventListene
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2023 Jordan Diaz
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
