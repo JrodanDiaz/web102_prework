@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://i.imgur.com/3jU5H9s.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough' />
-![walkthrough](https://github.com/JrodanDiaz/web102_prework/assets/129818825/f1301a9d-f1e9-4a4b-b999-b312d6cb59fc)
+![walkthrough](walkthrough.gif)
 
 Video Walkthrough Link: https://i.imgur.com/3jU5H9s.gif
 
