@@ -30,6 +30,8 @@ Here's a walkthrough of implemented features:
 
 <img src='https://i.imgur.com/3jU5H9s.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Video Walkthrough Link: https://i.imgur.com/3jU5H9s.gif
+
 GIF created with LiceCap 
 
 ## Notes
