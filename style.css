@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+/* Logo and Header ========================================= */
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    overflow-x: hidden;
 }
 
 #tentacles {
     width: 50px;
+    height: 50px;
 }
 
 .header {
@@ -14,13 +17,111 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: space-between;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+/* ========================================================= */
+
+/* Navigation Section ======================================= */
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    background-color: white;
+    border-radius: 7px;
+    max-height: 40px;
+}
+
+.navigation input {
+    border: none;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+
+.navigation input:focus {
+    outline: none;
+}
+
+.row button {
+    background-color: rgb(168, 176, 188);
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    margin: 3px;
+}
+
+.row img {
+    height: 20px;
+    width: 20px;
+    padding: 3px 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.anchor-transition {
+    transition: background-color 1000ms ease, color 1000ms ease !important;
+    background-color: rgb(14, 214, 34) !important;
+    color: rgb(7, 7, 7) !important;
+}
+/* ========================================================= */
+
+/* Company Description Section ============================= */
+
+.description-wrapper {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+}
+
+.description-wrapper h2 {
+    font-size: 40pt;
+    margin: 30px 0px 10px 0px;
+    text-align: center;
+}
+
+#description-container {
+    width: 30%;
+}
+
+#description-container p {
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 0;
+    
+}
+
+/* Stats Section =========================================== */
+
+#stats-header {
+    text-align: center;
+ }
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .stats-card {
@@ -34,6 +135,49 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+}
+/* ========================================================== */
+
+/* Game Filter Buttons ====================================== */
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.button-transition {
+    transition: background-color 1000ms ease, color 1000ms ease;
+    background-color: black;
+    color: white;
+}
+
+.fade-in {
+    animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
+    -moz-animation: fadeIn 1.5s;
+    -o-animation: fadeIn 1.5s;
+    -ms-animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* ========================================================= */
+
+/* Games Section ============================================ */
+
+#our-games > h2,p {
+    text-align: center;
 }
 
 #games-container {
@@ -62,14 +206,16 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
-#button-container {
-    text-align: center;
+#game-found {
+    box-shadow: 0 0 50px goldenrod;
+    background-color: black;
+    color: bisque;
 }
 
-button {
-    font-family: 'Cabin';
-    border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+/* ================================================== */
+
+@media (max-width: 900px) {
+    #description-container {
+        width: 70%;
+    }
 }
